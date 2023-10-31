@@ -1,0 +1,47 @@
+ /* *{
+    border: solid ;
+}  */
+
+body{
+    background-color: #A9D4D9;
+}
+
+h1{
+    color:#000000
+}
+
+.p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header{
+    background-color: #78B8BF;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    position: relative;
+}
+
+.item h3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-60%)
+
+}
+
+.item:hover h3{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.3;
+}
+
+
